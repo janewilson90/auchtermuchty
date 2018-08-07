@@ -2,12 +2,12 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 gulp.task('styles', function () {
-    gulp.src('assets/sass/**/*.scss')
+    gulp.src('scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./css/'))
+        .pipe(gulp.dest('./assets/css/'))
 });
 
 //Watch task
 gulp.task('default', function () {
-    gulp.watch('assets/sass/**/*.scss', ['muchty-styles']);
+    gulp.watch('scss/**/*.scss', ['muchty-styles']);
 });
