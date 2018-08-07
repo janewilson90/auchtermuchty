@@ -1,5 +1,63 @@
 h1 h2 h3 h4 h5 h6 {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  color: #223843; }
 
 p {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  color: #223843; }
+
+body {
+  color: #223843;
+  background-color: #fcfafa; }
+
+.title-uppercase {
+  text-transform: uppercase; }
+
+.btn {
+  border-radius: 20px;
+  box-sizing: border-box;
+  border-width: 2px; }
+  .btn i {
+    margin-right: 5px; }
+
+.btn-simple {
+  border-color: #223843;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 7px 18px;
+  color: #223843 !important; }
+
+.btn-cta {
+  color: #fcfafa;
+  background-color: #fe4a49;
+  border-color: #fe4a49; }
+
+.full-alert {
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 10px 15px; }
+  .full-alert h5 {
+    margin-bottom: 10px;
+    margin-top: 10px; }
+
+.alert-closure {
+  background-color: #fe4a49;
+  color: #fcfafa; }
+
+.jumbotron {
+  background-color: #eff1f3; }
+
+.landing-title {
+  padding-top: 8%;
+  text-align: left;
+  z-index: 3; }
+  .landing-title h1 {
+    font-size: 4.5em;
+    font-weight: 400;
+    margin: 30px 0 15px;
+    line-height: 1.1; }
+
+.nav-title {
+  font-size: 22px; }
