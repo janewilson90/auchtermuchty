@@ -9,5 +9,5 @@ gulp.task('styles', function () {
 
 //Watch task
 gulp.task('default', function () {
-    gulp.watch('scss/**/*.scss', ['muchty-styles']);
+    gulp.watch('scss/**/*.scss', ['styles']);
 });
