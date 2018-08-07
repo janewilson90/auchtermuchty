@@ -1,0 +1,63 @@
+@import mixins
+@import settings
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300|Roboto+Slab:400,300)
+
+
+h1, h2, h3, h4, h5, h6
+  font-family: Quicksand
+body 
+  font-family: Roboto Slab
+  padding: 0.1em
+  width: auto !important
+  overflow-x: hidden !important
+
+
+.navbar-header
+  .navbar-brand
+    font-family: Quicksand
+    font-weight: 400
+    font-size: 24px
+    color: $muchty-red
+  .header-book
+    @include vertical-align
+    padding: 12px 15px
+
+.row
+  .appointments
+    background-color: $muchty-red-lighter
+    text-align: center
+    padding: 1em 0 2em 0
+
+.panel-title .fa 
+  margin-right: 0.5em
+
+.link-list
+  @include link-list("\f14c", 1.2em, #d3d3d3)
+
+.casper
+  @include ghost-button("Quicksand", "12px", $muchty-red-light, 2px, $muchty-red-light, 4px, 300ms, #000000 )
+  @include border-radius(2px)
+  font-weight: 400
+
+.gmap
+  position: relative
+  padding-bottom: 30%
+  // This is the aspect ratio
+  height: 0
+  overflow: hidden
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100% !important
+    height: 100% !important
+
+
+footer 
+  background-color: $muchty-red-light
+
+
+.love-dundee
+  text-align: center
+  @include love-dundee(16px, 20px, "left")
