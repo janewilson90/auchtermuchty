@@ -14,6 +14,12 @@ section {
   padding-top: 2em;
   padding-bottom: 2em; }
 
+.content-block:nth-child(odd) {
+  background-color: #eff1f3; }
+
+.content-block:nth-child(even) {
+  background-color: transparent; }
+
 footer {
   background-color: #223843;
   color: #fcfafa;
@@ -62,9 +68,6 @@ footer {
   background-color: #fe4a49;
   color: #fcfafa; }
 
-.jumbotron {
-  background-color: #eff1f3; }
-
 .landing-title {
   text-align: left;
   z-index: 3; }
@@ -77,9 +80,6 @@ footer {
 .section-title {
   text-align: center;
   margin-bottom: 2rem; }
-
-.location {
-  background-color: #eff1f3; }
 
 .card {
   border: none;

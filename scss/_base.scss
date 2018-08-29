@@ -18,6 +18,15 @@ section {
     padding-bottom: 2em;
 }
 
+.content-block {
+    &:nth-child(odd) {
+        background-color: $grey;
+    }
+    &:nth-child(even) {
+        background-color: transparent;
+    }
+}
+
 footer {
     background-color: $navy;
     color: $off-white;
@@ -72,9 +81,9 @@ footer {
     color: $off-white;
 }
 
-.jumbotron {
-    background-color: $grey;
-}
+// .jumbotron {
+//     background-color: $grey;
+// }
 
 .landing-title {
     text-align: left;
@@ -93,9 +102,9 @@ footer {
     margin-bottom: 2rem;
 }
 
-.location {
-    background-color: $grey;
-}
+// .location {
+//     background-color: $grey;
+// }
 
 .card {
     border:none;
