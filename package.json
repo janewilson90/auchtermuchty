@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/janewilson90/auchtermuchty#readme",
   "devDependencies": {
+    "browser-sync": "^2.24.7",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
   }

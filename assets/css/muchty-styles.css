@@ -79,8 +79,23 @@ footer {
 .location {
   background-color: #eff1f3; }
 
+.card {
+  border: none;
+  background-color: transparent; }
+  .card .card-img-top-custom {
+    width: 25%;
+    margin: 1rem auto; }
+  .card .card-footer {
+    border-top: none;
+    background-color: transparent; }
+    .card .card-footer .service-tag {
+      color: #fcfafa; }
+
 .made-in {
   text-align: right; }
+
+footer p {
+  color: #fcfafa; }
 
 .nav-title {
   font-size: 22px; }

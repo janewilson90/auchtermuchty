@@ -101,6 +101,45 @@ footer {
     background-color: $grey;
 }
 
+// #our-services {
+//     .card {
+//         padding: 1rem!important;
+//         border: none;
+//         margin-bottom:1rem;
+//         -webkit-transition: .5s all ease;
+//         -moz-transition: .5s all ease;
+//         transition: .5s all ease;
+//         &:hover {
+//             -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+//             -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+//             box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+//         }
+//         img {
+//             width:100%;
+//         }
+//     }
+// }
+.card {
+    border:none;
+    background-color: transparent;
+    .card-img-top-custom {
+        width: 25%;
+        margin: 1rem auto;
+    }
+    .card-footer {
+        border-top:none;
+        background-color: transparent;
+        .service-tag {
+            color:$off-white;
+        }
+    }
+}
+
+
 .made-in {
     text-align: right;
+}
+
+footer p {
+    color:$off-white;
 }
