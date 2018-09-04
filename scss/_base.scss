@@ -1,3 +1,5 @@
+//https://www.flaticon.com/packs/dental-11
+
 h1 h2 h3 h4 h5 h6 {
     font-family: $header-font;
     color: $navy;
@@ -19,6 +21,7 @@ section {
 }
 
 .content-block {
+    padding: 75px 0;
     &:nth-child(odd) {
         background-color: $grey;
     }

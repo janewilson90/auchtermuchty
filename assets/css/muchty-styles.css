@@ -14,11 +14,12 @@ section {
   padding-top: 2em;
   padding-bottom: 2em; }
 
-.content-block:nth-child(odd) {
-  background-color: #eff1f3; }
-
-.content-block:nth-child(even) {
-  background-color: transparent; }
+.content-block {
+  padding: 75px 0; }
+  .content-block:nth-child(odd) {
+    background-color: #eff1f3; }
+  .content-block:nth-child(even) {
+    background-color: transparent; }
 
 footer {
   background-color: #223843;
