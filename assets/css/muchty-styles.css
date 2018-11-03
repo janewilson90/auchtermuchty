@@ -8,7 +8,8 @@ p {
 
 body {
   color: #223843;
-  background-color: #fcfafa; }
+  background-color: #fcfafa;
+  padding-top: 60px; }
 
 section {
   padding-top: 2em;

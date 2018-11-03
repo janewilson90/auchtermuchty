@@ -28,7 +28,7 @@
     <title>Auchtermuchty Dental Practice</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand nav-title" href="/">Auchtermuchty Dential Practice
                 <span class="sr-only">(current)</span>
@@ -63,7 +63,7 @@
     <div class="container landing-title">
         <h1 class="title-uppercase">Auchtermuchty Dental Practice</h1>
         <p class="lead">NHS and Private Dentistry</p>
-        <a href="#" class="btn btn-cta btn-fill">
+        <a href="#" class="btn btn-cta btn-fill" data-toggle="modal" data-target="#appointment">
             <i class="far fa-calendar-check"></i>Make an appointment</a>
             <a class="btn btn-simple">Our Staff</a>
         </div>
@@ -156,6 +156,42 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="appointment" tabindex="-1" role="dialog" aria-labelledby="appointmentLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="appointmentLabel">Make an appointment</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 ml-auto">
+                            <h3>Normal Appointments</h3>
+                            <p>For regular appointments (like checkups or treatments), call the practice on: <a href="tel:01337-828360">01337 828360</a></p>
+                        </div>
+                        <div class="col-md-12 ml-auto">
+                            <h3>Out of Hours Appointments</h3>
+                            <p>If you require help outside of regular practice hours, please contact: </p>
+                        </div>
+                        <div class="col-md-12 ml-auto">
+                            <h3>Emergency Appointments</h3>
+                            <p>Emergency treatment is available via...</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
             
     <footer>
         <div class="container">
@@ -192,7 +228,7 @@
                 </div>
                 
                 <div class="col made-in">
-                    <a class="nav-link" href="http://janeawilson.co.uk">Made in Dundee</a>
+                    <a class="nav-link" href="http://janeawilson.co.uk" target="_blank">Made in Dundee</a>
                     <p>Icons designed by <a href="https://www.flaticon.com/authors/monkik" target="_blank">monkik</a> from Flaticon</p>
                 </div>
             </div>
