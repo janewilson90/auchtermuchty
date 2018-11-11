@@ -34,8 +34,8 @@ section {
 footer {
     background-color: $navy;
     color: $off-white;
-    height: 75px;
     align-content: center;
+    padding-top: 1em;
     a {
         color: $off-white;
         &:hover {
@@ -44,6 +44,10 @@ footer {
     }
     p {
         color: $off-white
+    }
+    .little-extras {
+        padding-top: 1em;
+        font-size: small;
     }
 }
 
@@ -95,6 +99,15 @@ footer {
         line-height: 1.1;
 
     }
+}
+
+.header-background {
+    background-image: url('/assets/img/header-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
 }
 
 .section-title {

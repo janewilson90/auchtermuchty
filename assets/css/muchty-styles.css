@@ -25,14 +25,17 @@ section {
 footer {
   background-color: #223843;
   color: #fcfafa;
-  height: 75px;
-  align-content: center; }
+  align-content: center;
+  padding-top: 1em; }
   footer a {
     color: #fcfafa; }
     footer a:hover {
       color: #eff1f3; }
   footer p {
     color: #fcfafa; }
+  footer .little-extras {
+    padding-top: 1em;
+    font-size: small; }
 
 .title-uppercase {
   text-transform: uppercase; }
@@ -79,6 +82,14 @@ footer {
     margin: 30px 0 15px;
     line-height: 1.1; }
 
+.header-background {
+  background-image: url("/assets/img/header-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px; }
+
 .section-title {
   text-align: center;
   margin-bottom: 2rem; }
@@ -104,3 +115,6 @@ footer {
 
 .nav-title {
   font-size: 22px; }
+
+a {
+  text-decoration: underline; }
