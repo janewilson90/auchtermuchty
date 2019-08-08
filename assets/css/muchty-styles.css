@@ -1,0 +1,120 @@
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #223843; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #223843; }
+
+body {
+  color: #223843;
+  background-color: #fcfafa;
+  padding-top: 60px; }
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.content-block {
+  padding: 75px 0; }
+  .content-block:nth-child(odd) {
+    background-color: #eff1f3; }
+  .content-block:nth-child(even) {
+    background-color: transparent; }
+
+footer {
+  background-color: #223843;
+  color: #fcfafa;
+  align-content: center;
+  padding-top: 1em; }
+  footer a {
+    color: #fcfafa; }
+    footer a:hover {
+      color: #eff1f3; }
+  footer p {
+    color: #fcfafa; }
+  footer .little-extras {
+    padding-top: 1em;
+    font-size: small; }
+
+.title-uppercase {
+  text-transform: uppercase; }
+
+.btn {
+  border-radius: 20px;
+  box-sizing: border-box;
+  border-width: 2px; }
+  .btn i {
+    margin-right: 5px; }
+
+.btn-simple {
+  border-color: #223843;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 7px 18px;
+  color: #223843 !important; }
+
+.btn-cta {
+  color: #fcfafa;
+  background-color: #fe4a49;
+  border-color: #fe4a49; }
+
+.full-alert {
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 10px 15px; }
+  .full-alert h5 {
+    margin-bottom: 10px;
+    margin-top: 10px; }
+
+.alert-closure {
+  background-color: #fe4a49;
+  color: #fcfafa; }
+
+.landing-title {
+  text-align: left;
+  z-index: 3; }
+  .landing-title h1 {
+    font-size: 4.5em;
+    font-weight: 400;
+    margin: 30px 0 15px;
+    line-height: 1.1; }
+
+.header-background {
+  background-image: url("/assets/img/header-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px; }
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.card {
+  border: none;
+  background-color: transparent; }
+  .card:hover {
+    -webkit-box-shadow: 5px 7px 9px -4px #9e9e9e;
+    -moz-box-shadow: 5px 7px 9px -4px #9e9e9e;
+    box-shadow: 5px 7px 9px -4px #9e9e9e; }
+  .card .card-img-top-custom {
+    width: 25%;
+    margin: 1rem auto; }
+  .card .card-footer {
+    border-top: none;
+    background-color: transparent; }
+    .card .card-footer .service-tag {
+      color: #fcfafa; }
+
+.made-in {
+  text-align: right; }
+
+.nav-title {
+  font-size: 22px; }
+
+a {
+  text-decoration: underline; }

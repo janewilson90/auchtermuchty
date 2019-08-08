@@ -1,0 +1,20 @@
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+    -webkit-box-shadow:$top $left $blur $color #{$inset};
+    -moz-box-shadow:$top $left $blur $color #{$inset};
+    box-shadow:$top $left $blur $color #{$inset};
+}
+
+@mixin btn-simple($color) {
+    border-color: $color;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 18px;
+    color: $color!important;
+}
+
+@mixin btn-cta($text-color, $color) {
+    color: $text-color;
+    background-color: $color;
+    border-color: $color;
+}

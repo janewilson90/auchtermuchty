@@ -1,0 +1,140 @@
+//https://www.flaticon.com/packs/dental-11
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: $header-font;
+    color: $navy;
+}
+
+p {
+    font-family: $body-font;
+    color: $navy
+}
+
+body {
+    color: $navy;
+    background-color: $off-white;
+    padding-top: 60px;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.content-block {
+    padding: 75px 0;
+    &:nth-child(odd) {
+        background-color: $grey;
+    }
+    &:nth-child(even) {
+        background-color: transparent;
+    }
+}
+
+footer {
+    background-color: $navy;
+    color: $off-white;
+    align-content: center;
+    padding-top: 1em;
+    a {
+        color: $off-white;
+        &:hover {
+            color: $grey;
+        }
+    }
+    p {
+        color: $off-white
+    }
+    .little-extras {
+        padding-top: 1em;
+        font-size: small;
+    }
+}
+
+.title-uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.btn-simple {
+    @include btn-simple($navy);
+}
+
+.btn-cta {
+    @include btn-cta($off-white, $red)
+}
+
+.full-alert {
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 15px;
+    h5 {
+        margin-bottom:10px;
+        margin-top: 10px;
+    }
+}
+
+.alert-closure {
+    background-color: $red;
+    color: $off-white;
+}
+
+.landing-title {
+    text-align: left;
+    z-index: 3;
+    h1 {
+        font-size: 4.5em;
+        font-weight: 400;
+        margin: 30px 0 15px;
+        line-height: 1.1;
+
+    }
+}
+
+.header-background {
+    background-image: url('/assets/img/header-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border:none;
+    background-color: transparent;
+    &:hover {
+        @include box-shadow(5px, 7px, 9px, -4px, rgb(158, 158, 158) );
+    }
+    .card-img-top-custom {
+        width: 25%;
+        margin: 1rem auto;
+    }
+    .card-footer {
+        border-top:none;
+        background-color: transparent;
+        .service-tag {
+            color:$off-white;
+        }
+    }
+}
+
+
+.made-in {
+    text-align: right;
+}
